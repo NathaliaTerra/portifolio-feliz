@@ -1,0 +1,57 @@
+/*  #2cb67d
+    #e53170  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff8906; 
+    border-bottom: 10px solid #0f0e17;   
+    padding: 10px 20px;    
+}
+
+nav {
+    text-align: right;    
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fffffe;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    background-color: #e53170;
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+img {
+    background-color: #e53170;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;    
+}
+
+#button {
+    display: inline-block;
+    padding: 18px 20px;    
+    background-color: #e53170;
+    box-shadow: 5px 5px 3px #0f0e17;  
+    border-radius: 20px 0;  
+    margin-right: 0;  
+    transition: trasform 0.3s linear; 
+}
+
+#button:hover {
+    background-color: #2cb67d;    
+    transform: scale(1.08);
+}
