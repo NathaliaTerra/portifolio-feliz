@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between;
     background-color: #ff8906; 
@@ -6,7 +6,7 @@
     padding: 10px 20px;    
 }
 
-.header .avatar {
+.main-header .avatar {
     background-color: #e53170;
     display: inline-block;
     width: 60px;
