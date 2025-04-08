@@ -1,4 +1,4 @@
-.main-carrosel {
+.main-carrossel {
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -6,7 +6,7 @@
     padding-right: 100px;
 }
 
-.main-carrosel::after {
+.main-carrossel::after {
     content: '';
     display: block;
     position: absolute;    
@@ -17,7 +17,7 @@
     background-color: #000;
 }
 
-.main-carrosel::before {
+.main-carrossel::before {
     content: '';
     display: block;
     position: absolute;
@@ -28,27 +28,27 @@
     top: 37px; 
 }
 
-.main-carrosel .button-arrow {
+.main-carrossel .button-arrow {
     position: absolute;
     bottom: 70px; 
     transform: translateY(50%); ;     
 }
 
-.main-carrosel .button-arrow.-left {
+.main-carrossel .button-arrow.-left {
     left: 15px;
 }
 
-.main-carrosel .button-arrow.-right {
+.main-carrossel .button-arrow.-right {
     right: 15px;
 }
 
-.main-carrosel .items {    
+.main-carrossel .items {    
     width: 100%;
     overflow: hidden;
 }
 
-.main-carrosel .elements {
+.main-carrossel .elements {
     display: flex;
-    justify-content: space-evenly;  
-    transform: translateX(400px); 
+    justify-content: space-evenly;      
+    transition: trasform 100ms ease-in-out;
 }
