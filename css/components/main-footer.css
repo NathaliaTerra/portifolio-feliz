@@ -1,0 +1,26 @@
+.main-footer {
+    display: flex;
+    justify-content: center;  
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #000;
+}
+
+.main-footer .actions { 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-footer img { 
+    background-color: #e53170;
+    display: block; 
+    width: 45px;
+    height: 45px;
+    object-fit: cover;  
+    border-radius: 10%;
+}
+
+.main-footer img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
