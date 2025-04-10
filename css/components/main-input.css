@@ -7,3 +7,7 @@
     border: 5px solid #000;
     font-size: 30px;
 }
+
+.main-input.-textarea {
+    height: 320px;
+}
