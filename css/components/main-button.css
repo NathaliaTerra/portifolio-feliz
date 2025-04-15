@@ -19,5 +19,11 @@
 .main-button.-full {
     width: 100%;
 }
-  
+
+.main-button.-full:hover {
+    background-color: #2cb67d;    
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 
